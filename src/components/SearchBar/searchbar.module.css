@@ -1,0 +1,18 @@
+.container {
+    width: 100%;
+    background-color: var(--neutral-surface);
+    border-radius: 8px;
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    color: var(--neutral-text);
+    font-size: 20px;
+    line-height: 125%;
+    flex: 1
+}

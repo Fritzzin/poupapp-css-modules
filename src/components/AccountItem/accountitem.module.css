@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+
+    color: var(--neutral-text);
+}
+
+.bank {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+
+.balance {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    gap: 8px;
+}
+
+.title {
+    font-size: 15px;
+    line-height: 120%;
+    font-weight: 700;
+    margin: 0;
+}
